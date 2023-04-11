@@ -7,10 +7,10 @@ import cv2
 from detectron2.engine import DefaultPredictor
 import torch
 import math
-from tools.birdview_detection_refiner import BirdviewDetectionRefiner
-from tools.utils_3d import _draw_projection_obstacle_to_cam
-from tools.object_3d import Object3d
-from tools.utils_calib import Calibration
+from birdview_detection_refiner import BirdviewDetectionRefiner
+from utils_3d import _draw_projection_obstacle_to_cam
+from object_3d import Object3d
+from utils_calib import Calibration
 import os
 detectron2_root = os.getenv('DETECTRON_ROOT')
 
