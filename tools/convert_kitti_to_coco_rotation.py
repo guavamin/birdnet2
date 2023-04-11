@@ -6,7 +6,7 @@ import sys
 import math
 import numpy as np
 from PIL import Image
-from tools.utils_calib import Calibration
+from utils_calib import Calibration
 home = os.getenv('HOME')
 
 def parse_args():
