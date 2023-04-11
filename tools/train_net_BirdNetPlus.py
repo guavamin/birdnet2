@@ -6,7 +6,7 @@ from detectron2.config import get_cfg
 from detectron2.engine import DefaultTrainer, default_setup
 import logging
 import torch
-import tools.convert_kitti_to_coco_rotation as gen
+import convert_kitti_to_coco_rotation as gen
 import argparse
 # Paths
 detectron2_root = os.getenv('DETECTRON_ROOT')
