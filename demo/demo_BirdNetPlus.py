@@ -10,10 +10,10 @@ import math
 
 print(sys.path)
 
-from birdview_detection_refiner import BirdviewDetectionRefiner
-from utils_3d import _draw_projection_obstacle_to_cam
-from object_3d import Object3d
-from utils_calib import Calibration
+from tools.birdview_detection_refiner import BirdviewDetectionRefiner
+from tools.utils_3d import _draw_projection_obstacle_to_cam
+from tools.object_3d import Object3d
+from tools.utils_calib import Calibration
 import os
 
 
