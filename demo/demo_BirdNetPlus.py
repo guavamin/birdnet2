@@ -12,6 +12,9 @@ from utils_3d import _draw_projection_obstacle_to_cam
 from object_3d import Object3d
 from utils_calib import Calibration
 import os
+
+print(sys.path)
+
 detectron2_root = os.getenv('DETECTRON_ROOT')
 
 config_path = os.path.join(detectron2_root, 'configs', 'Base-BirdNetPlus.yaml')
